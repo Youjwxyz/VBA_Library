@@ -1,0 +1,8 @@
+
+Extact table data from Word document
+Lookup table name
+If table name is not available use "Missing", and to be updated manually
+Keep data in a worksheet named "TableName_Index"
+
+Use Index to locate table in Word document
+Use TableName to accept source data, and for human reference
