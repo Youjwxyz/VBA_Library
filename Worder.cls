@@ -48,6 +48,7 @@ Set WordDoc = Nothing
 For Each TempDoc In WordApp.Documents
     If TempDoc.Name = WordName Then
         Set WordDoc = TempDoc
+        WordDoc.Activate
         Exit For
     End If
 Next TempDoc
