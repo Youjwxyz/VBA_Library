@@ -8,6 +8,28 @@ Option Explicit
 'pickFolderToHaveFileFullNames
 'pickFolderToHaveFileDirectories
 
+Public Sub importFunctionRelatedClass()
+Dim classArr As Variant
+classArr = Array("FilesSearcher", "FolderPicker", "StrPather", "FilePicker")
+Dim classFolder As String
+classFolder = "C:\Business\Macros\VBA_Class"
+Dim one As Variant
+Dim com As Variant
+Dim comFound As Boolean
+For Each one In classArr
+    comFound = False
+    For Each com In ThisWorkbook.VBProject.VBComponents
+        If com.Name = one Then
+            comFound = True
+            Exit For
+        End If
+    Next com
+    If Not comFound Then
+        ThisWorkbook.VBProject.VBComponents.Import classFolder & "\" & one & ".cls"
+    End If
+Next one
+End Sub
+
 Public Function pickToHaveFileName() As String
 pickToHaveFileName = pickToHaveFile("FileName")
 End Function
