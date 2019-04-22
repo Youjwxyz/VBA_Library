@@ -35,11 +35,11 @@ pickToHaveFileName = pickToHaveFile("FileName")
 End Function
 
 Public Function pickToHaveFileFullName() As String
-pickToHaveFileName = pickToHaveFile("FileFullName")
+pickToHaveFileFullName = pickToHaveFile("FileFullName")
 End Function
 
 Public Function pickToHaveFileDirectory() As String
-pickToHaveFileName = pickToHaveFile("FileDirectory")
+pickToHaveFileDirectory = pickToHaveFile("FileDirectory")
 End Function
 
 Private Function pickToHaveFile(ByVal fileProperty As String) As String
