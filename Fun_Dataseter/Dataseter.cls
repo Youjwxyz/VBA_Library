@@ -104,7 +104,7 @@ Else
 End If
 End Sub
 
-Public Sub outputRecordSet()
+Public Sub outputRecordSetToWorksheet()
 If TypeName(dataSet) = "Recordset" And outputSheetName <> "" Then
     With ThisWorkbook.Worksheets(outputSheetName)
         Dim i As Long
@@ -119,6 +119,31 @@ Else
     Call resetClass
 End If
 End Sub
+
+Public Function outputRecordSetToArray() As Variant
+If TypeName(dataSet) = "Recordset" Then
+    Dim tempArr As Variant
+    tempArr = dataSet.getrows()
+    Dim i As Long
+    Dim j As Long
+    i = UBound(tempArr, 2) + 1
+    j = UBound(tempArr, 1) + 1
+    Dim FinalArr() As Variant
+    ReDim FinalArr(1 To i, 1 To j) As Variant
+    Dim m As Long
+    Dim n As Long
+    For m = 1 To i
+        For n = 1 To j
+            FinalArr(m, n) = tempArr(n - 1, m - 1)
+        Next n
+    Next m
+    Erase tempArr
+    outputRecordSetToArray = FinalArr
+    Erase FinalArr
+Else
+    Call resetClass
+End If
+End Function
 
 Private Sub resetClass()
 sourceFile = ""

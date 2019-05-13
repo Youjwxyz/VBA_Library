@@ -1,6 +1,7 @@
 Attribute VB_Name = "Fun_Dataseter"
 Option Explicit
 
+'runSQLAndSaveDataToArray
 'runSQLAndSaveInternalData
 'runSQLAndSaveExtenalData
 'runSQLAndSaveDataInWorksheet
@@ -30,6 +31,12 @@ For Each one In classArr
 Next one
 End Sub
 
+Public Function runSQLAndSaveDataToArray(ByVal sourceFile As String, _
+    ByVal sqlStr As String) As Variant
+Dim tempArr As Variant
+Call runSQLAndSaveData(sqlStr, sourceFile, , tempArr)
+runSQLAndSaveDataToArray = tempArr
+End Function
 
 Public Sub runSQLAndSaveInternalData(ByVal sqlStr As String)
 Call runSQLAndSaveData(sqlStr)
@@ -60,7 +67,8 @@ Call runSQLAndSaveData(sqlStr, sourceFile, targetSheetName)
 End Sub
 
 Private Sub runSQLAndSaveData(ByVal sqlStr As Variant, _
-    Optional ByVal sourceFile As String, Optional ByVal targetSheetName As String)
+    Optional ByVal sourceFile As String, Optional ByVal targetSheetName As Variant, _
+    Optional ByRef targetArray As Variant)
 Dim DS As New Dataseter
 If sourceFile = "" Then
     DS.sourceFileFullName = ThisWorkbook.FullName
@@ -78,12 +86,19 @@ Else
         DS.runSQLToAttainDataset
     Next one
 End If
-If targetSheetName = "" Then
-    DS.outputWorksheetName = "TempRS"
-Else
-    DS.outputWorksheetName = targetSheetName
+If Not IsMissing(targetSheetName) Then
+    If targetSheetName = "" Then
+        DS.outputWorksheetName = "TempRS"
+    Else
+        DS.outputWorksheetName = targetSheetName
+    End If
+    DS.outputRecordSetToWorksheet
 End If
-DS.outputRecordSet
+If Not IsMissing(targetArray) Then
+    targetArray = DS.outputRecordSetToArray
+End If
 DS.closeADODBConnection
 Set DS = Nothing
 End Sub
+
+
