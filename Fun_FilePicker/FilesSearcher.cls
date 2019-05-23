@@ -11,23 +11,35 @@ Option Explicit
 
 Public folder As String
 Public extension As String
-Public files As Variant
+Private files As Variant
 
 Public Sub searchFile()
-Dim fileName As String
-fileName = Dir(folder & "\*." & extension)
-Dim counter As Long
-counter = -1
-Dim Temp() As String
-Do Until fileName = ""
-    counter = counter + 1
-    ReDim Preserve Temp(counter) As String
-    Temp(counter) = folder & "\" & fileName
-    fileName = Dir
-Loop
-files = Temp
-Erase Temp
+If folder <> "" And extension <> "" Then
+    Dim fileName As String
+    fileName = Dir(folder & "\*." & extension)
+    Dim counter As Long
+    counter = -1
+    Dim Temp() As String
+    Do Until fileName = ""
+        counter = counter + 1
+        ReDim Preserve Temp(counter) As String
+        Temp(counter) = folder & "\" & fileName
+        fileName = Dir
+    Loop
+    files = Temp
+    Erase Temp
+Else
+    Call resetClass
+End If
 End Sub
+
+Property Get fileList() As Variant
+If TypeName(files) = "String()" Then
+    fileList = files
+Else
+    Call resetClass
+End If
+End Property
 
 Private Sub resetClass()
 folder = ""

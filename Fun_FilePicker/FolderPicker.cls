@@ -9,7 +9,7 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
-Public folder As String
+Private folder As String
 
 Public Sub pickFolder()
 Dim FSO As FileDialog
@@ -21,6 +21,16 @@ Else
 End If
 Set FSO = Nothing
 End Sub
+
+Property Get folderPath() As String
+If folder <> "" Then
+    folderPath = folder
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
+End Property
 
 Private Sub resetClass()
 folder = ""

@@ -1,14 +1,10 @@
 Attribute VB_Name = "Fun_FilePicker"
 Option Explicit
 
-'pickToHaveFileName
-'pickToHaveFileFullName
-'pickToHaveFileDirectory
-'pickFolderToHaveFileNames
-'pickFolderToHaveFileFullNames
-'pickFolderToHaveFileDirectories
+'pickToHaveFile
+'pickFolderToHaveFiles
 
-Public Sub importFunctionRelatedClass()
+Private Sub importFunctionRelatedClass()
 Dim classArr As Variant
 classArr = Array("FilesSearcher", "FolderPicker", "StrPather", "FilePicker")
 Dim classFolder As String
@@ -30,71 +26,70 @@ For Each one In classArr
 Next one
 End Sub
 
-Public Function pickToHaveFileName() As String
-pickToHaveFileName = pickToHaveFile("FileName")
-End Function
-
-Public Function pickToHaveFileFullName() As String
-pickToHaveFileFullName = pickToHaveFile("FileFullName")
-End Function
-
-Public Function pickToHaveFileDirectory() As String
-pickToHaveFileDirectory = pickToHaveFile("FileDirectory")
-End Function
-
-Private Function pickToHaveFile(ByVal fileProperty As String) As String
+Public Function pickToHaveFile(Optional ByVal fileProperty As String = "FileFullName") As String
 Dim FP As New FilePicker
 FP.pickFile
 Dim SP As New StrPather
-SP.fileFullPath = FP.file
+SP.fileFullPath = FP.filePath
 Select Case fileProperty
 Case "FileName"
     pickToHaveFile = SP.fileNameWithExt
 Case "FileFullName"
     pickToHaveFile = SP.fileFullPath
-Case "FileDicrectory"
+Case "FileDirectory"
     pickToHaveFile = SP.path
+Case "FileNameWithoutExtension"
+    pickToHaveFile = SP.fileNameWithoutExt
+Case "FileExtension"
+    pickToHaveFile = SP.extensionName
+Case Else
+    MsgBox "Incorrect fileProperty which should be one of these: " & Chr(10) & _
+        "- FileName" & Chr(10) & _
+        "- FileFullName" & Chr(10) & _
+        "- FileDirectory" & Chr(10) & _
+        "- FileNameWithoutExtension" & Chr(10) & _
+        "- FileExtension"
 End Select
 Set SP = Nothing
 Set FP = Nothing
 End Function
 
-Public Function pickFolderToHaveFileNames(ByVal fileExtension As String) As Variant
-pickFolderToHaveFileNames = pickFolderToHaveFiles(fileExtension, "FileName")
-End Function
-
-Public Function pickFolderToHaveFileFullNames(ByVal fileExtension As String) As Variant
-pickFolderToHaveFileFullNames = pickFolderToHaveFiles(fileExtension, "FileFullName")
-End Function
-
-Public Function pickFolderToHaveFileDirectories(ByVal fileExtension As String) As Variant
-pickFolderToHaveFileDirectories = pickFolderToHaveFiles(fileExtension, "FileDicrectory")
-End Function
-
-Private Function pickFolderToHaveFiles(ByVal fileExtension As String, _
-    ByVal fileProperty As String) As Variant
+Public Function pickFolderToHaveFiles(ByVal fileExtension As String, _
+    Optional ByVal fileProperty As String = "FileFullName") As Variant
 Dim FS As New FilesSearcher
 Dim FP As New FolderPicker
 FP.pickFolder
-FS.folder = FP.folder
+FS.folder = FP.folderPath
 FS.extension = fileExtension
 FS.searchFile
 Dim i As Long
 Dim j As Long
 Dim SP As New StrPather
 Dim Temp() As String
-i = UBound(FS.files)
+i = UBound(FS.fileList)
 If i > -1 Then
     ReDim Temp(i) As String
     For j = 0 To i
-        SP.fileFullPath = FS.files(j)
+        SP.fileFullPath = FS.fileList(j)
         Select Case fileProperty
         Case "FileName"
             Temp(j) = SP.fileNameWithExt
         Case "FileFullName"
             Temp(j) = SP.fileFullPath
-        Case "FileDicrectory"
+        Case "FileDirectory"
             Temp(j) = SP.path
+        Case "FileNameWithoutExtension"
+            Temp(j) = SP.fileNameWithoutExt
+        Case "FileExtension"
+            Temp(j) = SP.extensionName
+        Case Else
+            MsgBox "Incorrect fileProperty which should be one of these: " & Chr(10) & _
+                "- FileName" & Chr(10) & _
+                "- FileFullName" & Chr(10) & _
+                "- FileDirectory" & Chr(10) & _
+                "- FileNameWithoutExtension" & Chr(10) & _
+                "- FileExtension"
+            Exit For
         End Select
     Next j
 End If

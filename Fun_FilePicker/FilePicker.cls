@@ -9,7 +9,7 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
-Public file As String
+Private file As String
 
 Public Sub pickFile()
 Dim FSO As FileDialog
@@ -22,6 +22,16 @@ Else
 End If
 Set FSO = Nothing
 End Sub
+
+Property Get filePath() As String
+If file <> "" Then
+    filePath = file
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
+End Property
 
 Private Sub resetClass()
 file = ""

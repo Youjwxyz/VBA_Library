@@ -38,23 +38,53 @@ End If
 End Property
 
 Property Get fileFullPath() As String
-fileFullPath = file_Full_Path
+If file_Full_Path <> "" Then
+    fileFullPath = file_Full_Path
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
 End Property
 
 Property Get path() As String
-path = path_Only
+If path_Only <> "" Then
+    path = path_Only
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
 End Property
 
 Property Get fileNameWithExt() As String
-fileNameWithExt = file_Name_With_Extension
+If file_Name_With_Extension <> "" Then
+    fileNameWithExt = file_Name_With_Extension
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
 End Property
 
 Property Get fileNameWithoutExt() As String
-fileNameWithoutExt = file_Name_Without_Extension
+If file_Name_Without_Extension <> "" Then
+    fileNameWithoutExt = file_Name_Without_Extension
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
 End Property
 
 Property Get extensionName() As String
-extensionName = extension_Name
+If extension_Name <> "" Then
+    extensionName = extension_Name
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
 End Property
 
 Private Function resetClass()
