@@ -13,12 +13,20 @@ Public sourceRange As Excel.Range
 Public keyCol As Long
 Public valueCol As Long
 Public valueType As String
-Public dict As Object
-Public oneDArray As Variant
-Public twoDArray As Variant
+Private dict As Variant
+Private twoDArray As Variant
+Private oneDArray As Variant
 
-Public Sub fromRange()
-If Not sourceRange Is Nothing And keyCol > 0 And valueCol > 0 Then
+Property Set dictObject(ByRef sourceDict As Variant)
+If TypeName(sourceDict) = "Dictionary" Then
+    Set dict = sourceDict
+Else
+    Call resetClass
+End If
+End Property
+
+Public Sub generateDictAndArray()
+If TypeName(sourceRange) = "Range" And keyCol > 0 And valueCol > 0 Then
     If keyCol <= sourceRange.Columns.Count And valueCol <= sourceRange.Columns.Count Then
         If Not TypeName(dict) = "Dictionary" Then
             Set dict = CreateObject("Scripting.Dictionary")
@@ -28,15 +36,17 @@ If Not sourceRange Is Nothing And keyCol > 0 And valueCol > 0 Then
         i = sourceRange.Rows.Count
         For j = 1 To i
             Select Case valueType
-            Case "lastValue"
+            Case "LastValue"
                 dict.Item(sourceRange(j, keyCol).Value) = sourceRange(j, valueCol).Value
-            Case "countKey"
+            Case "CountKey"
                 dict.Item(sourceRange(j, keyCol).Value) = dict.Item(sourceRange(j, keyCol).Value) + 1
-            Case "sumValue"
+            Case "SumValue"
                 dict.Item(sourceRange(j, keyCol).Value) = dict.Item(sourceRange(j, keyCol).Value) + _
                     sourceRange(j, valueCol).Value
             End Select
         Next j
+        twoDArray = toTwoDArray(dict)
+        oneDArray = toOneDArray(dict)
     Else
         Call resetClass
     End If
@@ -45,55 +55,77 @@ Else
 End If
 End Sub
 
-Public Function toTwoDArray() As Variant
+Property Get dictObject() As Variant
 If TypeName(dict) = "Dictionary" Then
-    Dim i As Long
-    i = dict.Count
-    If i > 0 Then
-        Dim Temp() As Variant
-        ReDim Temp(1 To i, 1 To 2) As Variant
-        Dim j As Long
-        For j = 1 To i
-            Temp(j, 1) = dict.keys()(j - 1)
-            Temp(j, 2) = dict(dict.keys()(j - 1))
-        Next j
-        toTwoDArray = Temp
-        Erase Temp
-    Else
-        Call resetClass
-    End If
+    Set dictObject = dict
 Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
     Call resetClass
 End If
-End Function
+End Property
 
-Public Function toOneDArray() As Variant
-If TypeName(dict) = "Dictionary" Then
-    Dim i As Long
-    i = dict.Count
-    If i > 0 Then
-        Dim Temp() As Variant
-        ReDim Temp(0 To i - 1) As Variant
-        Dim j As Long
-        For j = 0 To i - 1
-            Temp(j) = dict.keys()(j)
-        Next j
-        toOneDArray = Temp
-        Erase Temp
-    Else
-        Call resetClass
-    End If
+Property Get twoDimensionArray() As Variant
+If TypeName(twoDArray) = "Variant()" Then
+    twoDimensionArray = twoDArray
 Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
     Call resetClass
 End If
-End Function
+End Property
+
+Property Get oneDimensionArray() As Variant
+If TypeName(oneDArray) = "Variant()" Then
+    oneDimensionArray = oneDArray
+Else
+    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
+    Stop
+    Call resetClass
+End If
+End Property
 
 Private Sub resetClass()
 Set sourceRange = Nothing
 keyCol = 0
 valueCol = 0
 valueType = ""
-Set dict = Nothing
-Set oneDArray = Nothing
-Set twoDArray = Nothing
+dict = Empty
+oneDArray = Empty
+twoDArray = Empty
 End Sub
+
+Private Function toTwoDArray(ByRef dictObject As Variant) As Variant
+If TypeName(dictObject) = "Dictionary" Then
+    Dim i As Long
+    i = dictObject.Count
+    If i > 0 Then
+        Dim Temp() As Variant
+        ReDim Temp(1 To i, 1 To 2) As Variant
+        Dim j As Long
+        For j = 1 To i
+            Temp(j, 1) = dictObject.keys()(j - 1)
+            Temp(j, 2) = dictObject(dictObject.keys()(j - 1))
+        Next j
+        toTwoDArray = Temp
+        Erase Temp
+    End If
+End If
+End Function
+
+Private Function toOneDArray(ByRef dictObject As Variant) As Variant
+If TypeName(dictObject) = "Dictionary" Then
+    Dim i As Long
+    i = dictObject.Count
+    If i > 0 Then
+        Dim Temp() As Variant
+        ReDim Temp(0 To i - 1) As Variant
+        Dim j As Long
+        For j = 0 To i - 1
+            Temp(j) = dictObject.keys()(j)
+        Next j
+        toOneDArray = Temp
+        Erase Temp
+    End If
+End If
+End Function

@@ -1,16 +1,11 @@
 Attribute VB_Name = "Fun_Dictionarer"
 Option Explicit
 
-'createLastValueDictFromRange
-'createSumValueDictFromRange
-'createCountKeyDictFromRange
-'appendLastValueDictFromRange
-'appendSumValueDictFromRange
-'appendCountKeyDictFromRange
-'convertDictToTwoDimensionArray
-'convertDictToOneDimensionArray
+'attainDictObjectFromRange
+'attainDictTwoDArrayFromRange
+'attainDictOneDArrayFromRange
 
-Public Sub importFunctionRelatedClass()
+Private Sub importFunctionRelatedClass()
 Dim classArr As Variant
 classArr = Array("Dictionarer")
 Dim classFolder As String
@@ -32,91 +27,67 @@ For Each one In classArr
 Next one
 End Sub
 
-Public Function createLastValueDictFromRange(ByRef sourceRange As Excel.Range, _
-    ByVal keyCol As Long, ByVal valueCol As Long) As Object
-    Set createLastValueDictFromRange = _
-        createDictionaryFromRange(sourceRange, keyCol, valueCol, "lastValue")
-End Function
-
-Public Function createSumValueDictFromRange(ByRef sourceRange As Excel.Range, _
-    ByVal keyCol As Long, ByVal valueCol As Long) As Object
-    Set createSumValueDictFromRange = _
-        createDictionaryFromRange(sourceRange, keyCol, valueCol, "sumValue")
-End Function
-
-Public Function createCountKeyDictFromRange(ByRef sourceRange As Excel.Range, _
-    ByVal keyCol As Long, ByVal valueCol As Long) As Object
-    Set createCountKeyDictFromRange = _
-        createDictionaryFromRange(sourceRange, keyCol, valueCol, "countKey")
-End Function
-
-Public Function appendLastValueDictFromRange(ByRef sourceDict As Object, _
-    ByRef sourceRange As Excel.Range, ByVal keyCol As Long, ByVal valueCol As Long) As Object
-    Set appendLastValueDictFromRange = _
-        appendDictionaryFromRange(sourceDict, sourceRange, keyCol, valueCol, "lastValue")
-End Function
-
-Public Function appendSumValueDictFromRange(ByRef sourceDict As Object, _
-    ByRef sourceRange As Excel.Range, ByVal keyCol As Long, ByVal valueCol As Long) As Object
-    Set appendSumValueDictFromRange = _
-        appendDictionaryFromRange(sourceDict, sourceRange, keyCol, valueCol, "sumValue")
-End Function
-
-Public Function appendCountKeyDictFromRange(ByRef sourceDict As Object, _
-    ByRef sourceRange As Excel.Range, ByVal keyCol As Long, ByVal valueCol As Long) As Object
-    Set appendCountKeyDictFromRange = _
-        appendDictionaryFromRange(sourceDict, sourceRange, keyCol, valueCol, "countKey")
-End Function
-
-Public Function convertDictToTwoDimensionArray(ByRef sourceDict As Object) As Variant
-If TypeName(sourceDict) = "Dictionary" Then
-    Dim Temp As New Dictionarer
-    Set Temp.dict = sourceDict
-    convertDictToTwoDimensionArray = Temp.toTwoDArray
-    Set Temp = Nothing
+Public Function attainDictObjectFromRange(ByRef sourceRange As Excel.Range, _
+    Optional ByVal keyCol As Long = 1, Optional ByVal valueCol As Long = 1, _
+    Optional ByVal valueType As String = "LastValue", _
+    Optional ByRef sourceDict As Variant) As Variant
+If IsMissing(sourceDict) = True Then
+    Set attainDictObjectFromRange = _
+        attainDictionaryFromRange("Dictionary", sourceRange, keyCol, valueCol, valueType)
+Else
+    Set attainDictObjectFromRange = _
+        attainDictionaryFromRange("Dictionary", sourceRange, keyCol, valueCol, valueType, sourceDict)
 End If
 End Function
 
-Public Function convertDictToOneDimensionArray(ByRef sourceDict As Object) As Variant
-If TypeName(sourceDict) = "Dictionary" Then
-    Dim Temp As New Dictionarer
-    Set Temp.dict = sourceDict
-    convertDictToOneDimensionArray = Temp.toOneDArray
-    Set Temp = Nothing
+Public Function attainDictTwoDArrayFromRange(ByRef sourceRange As Excel.Range, _
+    Optional ByVal keyCol As Long = 1, Optional ByVal valueCol As Long = 1, _
+    Optional ByVal valueType As String = "LastValue", _
+    Optional ByRef sourceDict As Variant) As Variant
+If IsMissing(sourceDict) = True Then
+    attainDictTwoDArrayFromRange = _
+        attainDictionaryFromRange("TwoDimensionArray", sourceRange, keyCol, valueCol, valueType)
+Else
+    attainDictTwoDArrayFromRange = _
+        attainDictionaryFromRange("TwoDimensionArray", sourceRange, keyCol, valueCol, valueType, sourceDict)
 End If
 End Function
 
-Private Function createDictionaryFromRange(ByRef sourceRange As Excel.Range, _
-    ByVal keyCol As Long, ByVal valueCol As Long, ByVal valueType As String) As Object
-If Not sourceRange Is Nothing And keyCol > 0 And valueCol > 0 Then
-    If keyCol <= sourceRange.Columns.Count And valueCol <= sourceRange.Columns.Count Then
-        Dim Temp As New Dictionarer
-        Set Temp.sourceRange = sourceRange
-        Temp.keyCol = keyCol
-        Temp.valueCol = valueCol
-        Temp.valueType = valueType
-        Temp.fromRange
-        Set createDictionaryFromRange = Temp.dict
-        Set Temp = Nothing
-    End If
+Public Function attainDictOneDArrayFromRange(ByRef sourceRange As Excel.Range, _
+    Optional ByVal keyCol As Long = 1, Optional ByVal valueCol As Long = 1, _
+    Optional ByVal valueType As String = "LastValue", _
+    Optional ByRef sourceDict As Variant) As Variant
+If IsMissing(sourceDict) = True Then
+    attainDictOneDArrayFromRange = _
+        attainDictionaryFromRange("OneDimensionArray", sourceRange, keyCol, valueCol, valueType)
+Else
+    attainDictOneDArrayFromRange = _
+        attainDictionaryFromRange("OneDimensionArray", sourceRange, keyCol, valueCol, valueType, sourceDict)
 End If
 End Function
 
-Private Function appendDictionaryFromRange(ByRef sourceDict As Object, _
-    ByRef sourceRange As Excel.Range, ByVal keyCol As Long, ByVal valueCol As Long, _
-    ByVal valueType As String) As Object
-If TypeName(sourceDict) = "Dictionary" And Not sourceRange Is Nothing And keyCol > 0 And valueCol > 0 Then
-    If keyCol <= sourceRange.Columns.Count And valueCol <= sourceRange.Columns.Count Then
-        Dim Temp As New Dictionarer
-        Set Temp.sourceRange = sourceRange
-        Temp.keyCol = keyCol
-        Temp.valueCol = valueCol
-        Temp.valueType = valueType
-        Set Temp.dict = sourceDict
-        Temp.fromRange
-        Set appendDictionaryFromRange = Temp.dict
-        Set Temp = Nothing
-    End If
+Private Function attainDictionaryFromRange(ByVal targetObjectType As String, _
+    ByRef sourceRange As Excel.Range, Optional ByVal keyCol As Long = 1, _
+    Optional ByVal valueCol As Long = 1, Optional ByVal valueType As String = "LastValue", _
+    Optional ByRef sourceDict As Variant) As Variant
+Dim DT As New Dictionarer
+Set DT.sourceRange = sourceRange
+DT.keyCol = keyCol
+DT.valueCol = valueCol
+DT.valueType = valueType
+If IsMissing(sourceDict) = False Then
+    Set DT.dictObject = sourceDict
 End If
+DT.generateDictAndArray
+Select Case targetObjectType
+Case "Dictionary"
+    Set attainDictionaryFromRange = DT.dictObject
+Case "TwoDimensionArray"
+    attainDictionaryFromRange = DT.twoDimensionArray
+Case "OneDimensionArray"
+    attainDictionaryFromRange = DT.oneDimensionArray
+End Select
 End Function
+
+
 
