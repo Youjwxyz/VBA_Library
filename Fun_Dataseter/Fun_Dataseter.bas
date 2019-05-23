@@ -1,15 +1,9 @@
 Attribute VB_Name = "Fun_Dataseter"
 Option Explicit
 
-'runSQLAndSaveDataToArray
-'runSQLAndSaveInternalData
-'runSQLAndSaveExtenalData
-'runSQLAndSaveDataInWorksheet
-'runSQLsAndSaveInternalData
-'runSQLsAndSaveExtenalData
-'runSQLsAndSaveDataInWorksheet
+'attainArrayFromSQLScripts
 
-Public Sub importFunctionRelatedClass()
+Private Sub importFunctionRelatedClass()
 Dim classArr As Variant
 classArr = Array("Dataseter")
 Dim classFolder As String
@@ -31,74 +25,48 @@ For Each one In classArr
 Next one
 End Sub
 
-Public Function runSQLAndSaveDataToArray(ByVal sourceFile As String, _
-    ByVal sqlStr As String) As Variant
-Dim tempArr As Variant
-Call runSQLAndSaveData(sqlStr, sourceFile, , tempArr)
-runSQLAndSaveDataToArray = tempArr
+
+Public Function attainArrayFromSQLScripts(ByRef SQLScripts As Variant, _
+    Optional ByVal sourceFile As String) As Variant
+If sourceFile = "" Then
+    sourceFile = ThisWorkbook.FullName
+End If
+If verifySQLStripts(SQLScripts) = True Then
+    Dim DS As New Dataseter
+    DS.sqlStrings = SQLScripts
+    DS.sourceFileFullName = sourceFile
+    attainArrayFromSQLScripts = DS.resultArray
+End If
 End Function
 
-Public Sub runSQLAndSaveInternalData(ByVal sqlStr As String)
-Call runSQLAndSaveData(sqlStr)
-End Sub
-
-Public Sub runSQLAndSaveExtenalData(ByVal sourceFile As String, _
-    ByVal sqlStr As String)
-Call runSQLAndSaveData(sqlStr, sourceFile)
-End Sub
-
-Public Sub runSQLAndSaveDataInWorksheet(ByVal sourceFile As String, _
-    ByVal sqlStr As String, ByVal targetSheetName As String)
-Call runSQLAndSaveData(sqlStr, sourceFile, targetSheetName)
-End Sub
-
-Public Sub runSQLsAndSaveInternalData(ByRef sqlStr() As String)
-Call runSQLAndSaveData(sqlStr)
-End Sub
-
-Public Sub runSQLsAndSaveExtenalData(ByVal sourceFile As String, _
-    ByRef sqlStr() As String)
-Call runSQLAndSaveData(sqlStr, sourceFile)
-End Sub
-
-Public Sub runSQLsAndSaveDataInWorksheet(ByVal sourceFile As String, _
-    ByRef sqlStr() As String, ByVal targetSheetName As String)
-Call runSQLAndSaveData(sqlStr, sourceFile, targetSheetName)
-End Sub
-
-Private Sub runSQLAndSaveData(ByVal sqlStr As Variant, _
-    Optional ByVal sourceFile As String, Optional ByVal targetSheetName As Variant, _
-    Optional ByRef targetArray As Variant)
-Dim DS As New Dataseter
-If sourceFile = "" Then
-    DS.sourceFileFullName = ThisWorkbook.FullName
-Else
-    DS.sourceFileFullName = sourceFile
-End If
-DS.openADODBConnection
-If TypeName(sqlStr) = "String" Then
-    DS.sqlStr = sqlStr
-    DS.runSQLToAttainDataset
-Else
-    Dim one As Variant
-    For Each one In sqlStr
-        DS.sqlStr = one
-        DS.runSQLToAttainDataset
-    Next one
-End If
-If Not IsMissing(targetSheetName) Then
-    If targetSheetName = "" Then
-        DS.outputWorksheetName = "TempRS"
-    Else
-        DS.outputWorksheetName = targetSheetName
+Private Function verifySQLStripts(ByRef SQLScripts As Variant) As Boolean
+Dim indicator As Boolean
+Select Case TypeName(SQLScripts)
+Case "String"
+    If SQLScripts <> "" Then
+        indicator = True
     End If
-    DS.outputRecordSetToWorksheet
+Case "String()"
+    If isEmptyArray(SQLScripts) = False Then
+        indicator = True
+        Dim one As Variant
+        For Each one In SQLScripts
+            If one = "" Then
+                indicator = False
+                Exit For
+            End If
+        Next one
+    End If
+End Select
+verifySQLStripts = indicator
+End Function
+
+Private Function isEmptyArray(ByVal sourceArray As Variant) As Boolean
+On Error Resume Next
+If UBound(sourceArray, 1) < LBound(sourceArray, 1) Then
+    isEmptyArray = True
 End If
-If Not IsMissing(targetArray) Then
-    targetArray = DS.outputRecordSetToArray
-End If
-DS.closeADODBConnection
-Set DS = Nothing
-End Sub
+End Function
+
 
 
