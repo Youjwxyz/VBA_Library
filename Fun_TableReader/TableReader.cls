@@ -91,6 +91,8 @@ Private Function getMaxCountOfTempArray(ByVal rowRepeatSub As Long, ByVal maxRow
     ByVal colRepeatSub As Long, ByVal maxCol As Long) As Long
 Dim rowCount As Long
 Dim colCount As Long
+rowCount = 1
+colCount = 1
 If maxRow > 0 And maxCol > 0 Then
     If rowRepeatSub <> 0 Then
         rowCount = Abs(Round(maxRow / rowRepeatSub, 0)) + 1
