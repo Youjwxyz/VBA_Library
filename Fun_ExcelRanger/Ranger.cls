@@ -134,12 +134,14 @@ If subAddressOfRange <> "" Then
         Dim tempValue As Variant
         Dim numberIndicator As Boolean
         For j = 1 To i
-            tempValue = UCase(Mid(subAddressOfRange, j, 1))
-            If IsNumeric(tempValue) = True Then
-                numberIndicator = True
-                If Asc(tempValue) = 48 Then
-                    indicator = False
-                    Exit For
+            If numberIndicator = False Then
+                tempValue = UCase(Mid(subAddressOfRange, j, 1))
+                If IsNumeric(tempValue) = True Then
+                    numberIndicator = True
+                    If Asc(tempValue) = 48 Then
+                        indicator = False
+                        Exit For
+                    End If
                 End If
             End If
             If numberIndicator = False Then
