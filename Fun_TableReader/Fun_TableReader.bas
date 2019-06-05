@@ -28,7 +28,7 @@ End Sub
 
 Function attainDataFromTable(ByVal workbookFullPath As String, ByVal worksheetName As String, _
     ByRef titleAndDataRefArray As Variant, Optional ByVal rowRepeat As Long = 0, Optional ByVal colRepeat As Long = 0, _
-    Optional ByVal bookUpdateLink As Boolean = False, Optional ByVal bookReadOnly As Boolean = True, _
+    Optional ByVal valueType As String = "Value", Optional ByVal bookUpdateLink As Boolean = False, Optional ByVal bookReadOnly As Boolean = True, _
     Optional ByVal bookPassword As String = "", Optional ByVal bookIngoreReadOnly As Boolean = True) As Variant
 If workbookFullPath <> "" And worksheetName <> "" And TypeName(titleAndDataRefArray) = "Variant()" Then
     Dim WB As New Workbooker
@@ -46,6 +46,7 @@ If workbookFullPath <> "" And worksheetName <> "" And TypeName(titleAndDataRefAr
     
     Dim TR As New TableReader
     Set TR.sourceSheet = WS.worksheetObject
+    TR.valueType = valueType
     TR.titleAndDataRefArray = titleAndDataRefArray
     TR.rowRepeat = rowRepeat
     TR.colRepeat = colRepeat

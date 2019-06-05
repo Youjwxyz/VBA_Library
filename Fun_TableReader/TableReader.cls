@@ -10,6 +10,7 @@ Attribute VB_Exposed = False
 Option Explicit
 
 Public sourceSheet As Excel.Worksheet
+Public valueType As String
 Public titleAndDataRefArray As Variant
 'TitleA, TitleB, TitleC, TitleD, ...
 'D2, D5, $A$6, $N7, ...
@@ -20,6 +21,7 @@ Private dataArray As Variant
 
 Private Sub resetClass()
 Set sourceSheet = Nothing
+valueType = ""
 titleAndDataRefArray = Empty
 rowRepeat = 0
 colRepeat = 0
@@ -27,7 +29,7 @@ dataArray = Empty
 End Sub
 
 Public Sub extractTable()
-If TypeName(sourceSheet) = "Worksheet" And TypeName(titleAndDataRefArray) = "Variant()" Then
+If TypeName(sourceSheet) = "Worksheet" And TypeName(titleAndDataRefArray) = "Variant()" And valueType <> "" Then
     Dim maxRow As Long
     Dim maxCol As Long
     maxRow = sourceSheet.UsedRange.SpecialCells(xlCellTypeLastCell).Row
@@ -58,7 +60,12 @@ If TypeName(sourceSheet) = "Worksheet" And TypeName(titleAndDataRefArray) = "Var
             If verifyKeyFields(sourceSheet, titleAndDataRefArray, rowDelta, colDelta) Then
                 counter = counter + 1
                 For b = 1 To a
-                    tempArray(counter, b) = adjustedOffset(sourceSheet, titleAndDataRefArray(2, b), rowDelta, colDelta)
+                    Select Case valueType
+                    Case "Value"
+                        tempArray(counter, b) = adjustedOffset(sourceSheet, titleAndDataRefArray(2, b), rowDelta, colDelta)
+                    Case "Address"
+                        tempArray(counter, b) = adjustedOffsetAddress(sourceSheet, titleAndDataRefArray(2, b), rowDelta, colDelta)
+                    End Select
                 Next b
             End If
             If colRepeat <> 0 Then
@@ -105,21 +112,46 @@ getMaxCountOfTempArray = rowCount * colCount
 End Function
 
 
+Private Function adjustedOffsetAddress(ByRef targetSheet As Excel.Worksheet, ByVal cellAddress As String, _
+    ByVal rowOffset As Long, ByVal colOffset As Long) As Variant
+If TypeName(targetSheet) = "Worksheet" And cellAddress <> "" Then
+    Dim tempValue As Variant
+    Dim one As Excel.Range
+    Set one = targetSheet.Range(cellAddress)
+    If Left(cellAddress, 1) = "$" Then
+        If InStr(2, cellAddress, "$") > 0 Then
+            tempValue = one.Address(False, False)
+        Else
+            tempValue = targetSheet.Cells(one.Row + rowOffset, one.Column).Address(False, False)
+        End If
+    Else
+        If InStr(2, cellAddress, "$") > 0 Then
+            tempValue = targetSheet.Cells(one.Row, one.Column + colOffset).Address(False, False)
+        Else
+            tempValue = targetSheet.Cells(one.Row + rowOffset, one.Column + colOffset).Address(False, False)
+        End If
+    End If
+    adjustedOffsetAddress = tempValue
+End If
+End Function
+
 Private Function adjustedOffset(ByRef targetSheet As Excel.Worksheet, ByVal cellAddress As String, _
     ByVal rowOffset As Long, ByVal colOffset As Long) As Variant
 If TypeName(targetSheet) = "Worksheet" And cellAddress <> "" Then
     Dim tempValue As Variant
+    Dim one As Excel.Range
+    Set one = targetSheet.Range(cellAddress)
     If Left(cellAddress, 1) = "$" Then
         If InStr(2, cellAddress, "$") > 0 Then
-            tempValue = targetSheet.Range(cellAddress).Value
+            tempValue = one.Value
         Else
-            tempValue = targetSheet.Range(cellAddress).Offset(rowOffset, 0).Value
+            tempValue = targetSheet.Cells(one.Row + rowOffset, one.Column).Value
         End If
     Else
         If InStr(2, cellAddress, "$") > 0 Then
-            tempValue = targetSheet.Range(cellAddress).Offset(0, colOffset).Value
+            tempValue = targetSheet.Cells(one.Row, one.Column + colOffset).Value
         Else
-            tempValue = targetSheet.Range(cellAddress).Offset(rowOffset, colOffset).Value
+            tempValue = targetSheet.Cells(one.Row + rowOffset, one.Column + colOffset).Value
         End If
     End If
     adjustedOffset = tempValue
