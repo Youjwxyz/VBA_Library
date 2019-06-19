@@ -50,8 +50,7 @@ If TypeName(sheetObject) = "Worksheet" And verifyLocationIndex(indexOfRange) = T
     Dim i As Long
     i = UBound(rangeIndex)
     If i = 1 Then
-        Set rangeObject = sheetObject.Range( _
-            sheetObject.Cells(CLng(rangeIndex(0)), CLng(rangeIndex(1))))
+        Set rangeObject = sheetObject.Cells(CLng(rangeIndex(0)), CLng(rangeIndex(1)))
     End If
     If i = 3 Then
         Set rangeObject = sheetObject.Range( _
