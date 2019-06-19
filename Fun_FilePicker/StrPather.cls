@@ -30,10 +30,10 @@ If stringText <> "" Then
         file_Name_Without_Extension = Mid(stringText, i + 1, j - i - 1)
         extension_Name = Mid(stringText, j + 1)
     Else
-        Call resetClass
+        Call resetClass("Source file full path looks incorrect.")
     End If
 Else
-    Call resetClass
+    Call resetClass("Source file full path is not provided.")
 End If
 End Property
 
@@ -41,9 +41,8 @@ Property Get fileFullPath() As String
 If file_Full_Path <> "" Then
     fileFullPath = file_Full_Path
 Else
-    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
-    Stop
     Call resetClass
+    fileFullPath = ""
 End If
 End Property
 
@@ -51,9 +50,8 @@ Property Get path() As String
 If path_Only <> "" Then
     path = path_Only
 Else
-    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
-    Stop
     Call resetClass
+    path = ""
 End If
 End Property
 
@@ -61,9 +59,8 @@ Property Get fileNameWithExt() As String
 If file_Name_With_Extension <> "" Then
     fileNameWithExt = file_Name_With_Extension
 Else
-    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
-    Stop
     Call resetClass
+    fileNameWithExt = ""
 End If
 End Property
 
@@ -71,9 +68,8 @@ Property Get fileNameWithoutExt() As String
 If file_Name_Without_Extension <> "" Then
     fileNameWithoutExt = file_Name_Without_Extension
 Else
-    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
-    Stop
     Call resetClass
+    fileNameWithoutExt = ""
 End If
 End Property
 
@@ -81,16 +77,16 @@ Property Get extensionName() As String
 If extension_Name <> "" Then
     extensionName = extension_Name
 Else
-    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
-    Stop
     Call resetClass
+    extensionName = ""
 End If
 End Property
 
-Private Function resetClass()
+Private Function resetClass(Optional ByVal errorMessage As String = "Unknown Error")
 file_Full_Path = ""
 path_Only = ""
 file_Name_With_Extension = ""
 file_Name_Without_Extension = ""
 extension_Name = ""
+MsgBox errorMessage
 End Function

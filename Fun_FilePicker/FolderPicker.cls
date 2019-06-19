@@ -26,12 +26,12 @@ Property Get folderPath() As String
 If folder <> "" Then
     folderPath = folder
 Else
-    MsgBox "Error in VBA codes, please contact alex.you@walmart.com for help."
-    Stop
-    Call resetClass
+    Call resetClass("No folder is picked.")
+    folderPath = folder
 End If
 End Property
 
-Private Sub resetClass()
+Private Sub resetClass(Optional ByVal errorMessage As String = "Unknown Error")
 folder = ""
+MsgBox errorMessage
 End Sub

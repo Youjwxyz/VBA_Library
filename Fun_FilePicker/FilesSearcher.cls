@@ -37,13 +37,15 @@ Property Get fileList() As Variant
 If TypeName(files) = "String()" Then
     fileList = files
 Else
-    Call resetClass
+    Call resetClass("Source folder or file extension is not correct.")
+    fileList = files
 End If
 End Property
 
-Private Sub resetClass()
+Private Sub resetClass(Optional ByVal errorMessage As String = "Unknown Error")
 folder = ""
 extension = ""
 files = Empty
+MsgBox errorMessage
 End Sub
 
