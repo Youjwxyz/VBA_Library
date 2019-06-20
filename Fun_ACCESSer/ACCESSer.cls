@@ -527,6 +527,8 @@ If sourceFieldName <> "" Then
     tempStr = Replace(tempStr, " ", "_")
     tempStr = Replace(tempStr, "-", "_")
     tempStr = Replace(tempStr, "'", "_")
+    tempStr = Replace(tempStr, "/", "_")
+    tempStr = Replace(tempStr, "\", "_")
     tempStr = Replace(tempStr, Chr(10), "_")
 Else
     tempStr = ""
