@@ -1,1 +1,1145 @@
-<mxfile modified="2019-09-03T07:06:58.576Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36" etag="9Hi5YO-Lq04rm0vbIOMn" pages="5" version="11.2.4" type="github"><diagram id="kjg083pWLBoVDDtL00Iw" name="StatisticReport">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</diagram><diagram id="icaxgThGoKbC_f-febgG" name="GiftCardReport">7V1bc6M6Ev41POzDpnRDoEfwJWe3aramktk5O08pYmObOQR8MJ4k59dvSwibi+KQExvbcVypBBpJgNT6+lN3y7Ho4OHpOguWiy/pNIwtgqZPFh1ahGDObfgjJc9agohbSOZZNNWyreA2+issC2rpOpqGq1rBPE3jPFrWhZM0ScJJXpMFWZY+1ovN0rh+12UwD1uC20kQt6W/R9N8UUhd4mzlv4XRfFHeGXNRXHkIysL6TVaLYJo+VkR0ZNFBlqZ5cfTwNAhj2Xtlv2SI/Hn38xmP8OQ/jv9IxuQr+2fR2PgtVTavkIVJ/reb/vovzsL7m+d/33//4+df/vW39MdPXQX9CuK17i/9rvlz2YHQCowVnPiL/CEGGYZD6IulvL7Kgyy/zYNcXp9FcTxI4zRTFSlSH1k4z9I/wsqV2Uxf6fhiugN+hVkePlWGVb/odZg+hHn2DEX0Vcq02pZaS+iVljxulYDqt19Uxr+UBVrt5pu2t10LB7p339DTuENPT0Fz9Wma5Yt0niZBPNpKqyMgOyMCNffiaJ6A7D7N8/QBLoTJ1JPzRjayDJNCouelu8fRWKXrbBK+rlugIfMw31FOd4R8+51jm4VxkEe/6vPaNE666tc0gvfY6gRHNZ0geKMTZSPFo+p6jfHePMjfVwHSVoGRYwlmea414pbrWr5jjWxLDJTEtlzb8rE1YpbvWZ4vywgo5iiJb/lclvHgWKgDrMpALSgGEiHbcZE1ci0PahXtuJbrS4k/lD/y7p7lskEA8xtal5dt1cTQEnAwtnxoAl6W/7mWKOdb9gB+JkmSr1yE7NkKzr6u7+NoAgfjKAkS0Ah74P2A17xdgCLByXUUz+QwDIJsCn+GQR6A9LbQHnswTB+TOA2md4P04T5KwjtZ/k4WvlNFCfqOr57i1UPlKZoTJ0vXyTSc6pnxuIjy8HYZKOV8BLNWnzhBNtGzgUmln6VJbgKtBpjN4DM5DpgR0gAz1whmJjSzD4Vm9PTRDEYhe/4fCBH0lj79IU/Lk+FT7exZn+0ZBUlHFCz5Uu8wKPqGQWwgHRLaAKfGCv6QBCwpAfCpAtlu/GqBwgIAZb16HRBOZ6bTxkwnjmmmu4aJzg5GW9q8JUnfN9cDPcfjcJafBZHBXZkMtjvOYT3e5RO8c0pzp6E2bu9Tuk1tnmHRd0g1ydPleeoIPYqO2LSuI5T3riMGzlCAPLBbCftCsV5FdqWES/AXVF7yC/x3JOYLLA+A6UqOWxJUaQiE5MTSWAjJgLeFhWTGfoXNggRak5aFS2viFQfAsG3FlbF6jE3hKrGGY7vkymClhLqxD/ydVCqYrFTzURTrF2PN+qGp3U8ABF+Sfbg0snykJAVB39zLkS8vOwsebCQf7MIosuNcNfTb5gbTiUuk7IUkY3b6LHnfMEi7wiDvi+7W9YKx3nHP7qAFu3xscihPzsPG7MYywnGP7mHjbzMwaqXhuhWAVSbHRZW1RxvMpQ2orj0M0H1Z2EtRc4aZNAGTXlctzukj74n4J8pZ8ypiU3EcxLZJ74jtfkTEpg3E5vz4iC1aHV26g0F6Hc3yqtP45SF4BVIPZgNxvUddI/AhA+V0DtWj5IMG9DBGqMHwBT+u8pK2Z+zkbMyebQXpHNIj/dgK0AraUAuCGq0cOqjXdn0dLqpXOB+qzBNprwfU1x4GYolhSVxHmp0KV5Nbj8rqIJf3+wzvnQJ/Fqzpu8AObkMb5T3yZ/IZ3+uMiaQjJjo9BfiES+qA6PB+AbHt9SpgCyBpLPFspLIRdKyPAABtiF4RBZSopfyZAHmExxIS7jM4mitwMEQKbYmwvlrsu2PlTYVbjSxhQJLziwlisGgNfGCUtfCh16Agabu0Tj8ouMWLGlpswaMnvGBdOZTTES/2GyjCpLQ+pbaVwb2+8KPtxjv1WOKpmKLOquUeSbW4U1cthvpOweviGDw71w6mLmvZCNHmkL0ujw1OtN3eeE+tR8o46w5SUAv71uKoN+EshM6d7Mxm1IVVQFUGgu1v6ZKizbJqVxuXtTLBBNUdXDZyTB6uXpcm9IXssa5pBN/CLJjKlWdVi2AxXay7ZURILZpBqXRIBw7I92gV5SYGW7ShVtdw6o5lj8naQyi2UaR/XJreYMHqemMMDmK7V725PHcd7equo3256wivc0u+VYyeCED5qr3ChwofM8tTUWPphRNdsARXsEQDUFFEXB6e8Aa94bYRUViviHJWTrKjLnrLWfc6ErGekIhR0lAph/YdZ6aG/LDdWOQhFRbgko56owpT1WBUg4nBxsHWDX9eT0rEdRJdu7ZNgfwSLJdRMjenMurnqbJ9R78c/BZoly/wskCPofpi+QXybdM25PGDQV6XXLYPRqK6OlVY18Tud0OX27KGiPUNXW/MtVNo4Xpt2DCFPxU0iSLXbqhil7YKo6K3RU8JDx4kCiT3q+XlhRXBwtUX7w7gBxOVTxtLes3Ro2eQo7dvLOmca9fVQfteLKG8GVxyHWJSk75w5UOm3mHW2KHluMZOPpavtvQVvxnNX9yRaQJ6x/IUlZMg7pW5MG5lQ4u6qSxMdybFVLfmQBkysKinElEMeSg34Wod53BAEBZIIHKHXITIpa2gCXfrXBIbd8cIx4D/zoGUjnVJVTyZ5fNRA3vl/Hydg+J+7IZdJggdLUebGdy5nwT0lDCHouYyxRb2lTghBsoMvuCPgkDhU5RXqsHZD/2Q8nhbSZ4cCLXKKfr6XsCe2C4D/aPVT8PBwugV5ttPw/C9AGiGndbkyq3cpB4KY04LKYuOPBxSvn3f9dmTu3bWYGWPn47pO9IN+ul5NHoeG1E6ZOCK3LCthdsvT8n3IfXl7aRmXXdS0552UmO73CpYLmJFwzAfmvK1nc836wQEm5jsy56CI+0Qw9hpOOGOvUGMt71uzU5E39Il/C69DafUn6Lh0yQlxzhef5rS3Ezbf+obebzpb+nkarL6ZTaGYHx8ZXjBqBYZ7jKxHevwXREC9EZ6PePb6tv9HHlHaa6rXxxSfHGKLdtxi7WKo24h1AGr7EvSSQe6jGdv8+HWyTbpoXjGjZkv1kFCtW2rzfPDzf1H8yuoelfWvbsJlwDLd0WyHRlAv42J+oXkNlAE4EI9aSE9mXQ20Hb/v9FX+TWsYOvXyU2Yq5aKFuzBlyBKrp4CULrLss+C1ScBJe3tAEQYFlIHM89O25WzxZB6UqawFSfUEez2yJ3hBg3U+LJZYrd3pva6PcNp+0ZOf3vGnumT0zX3jXTNONlzLnxz9YndfrdpOW3nx+c2i/2qFj/SNouNH78EJN6zap1VYtzZ+dVKtdoftL0by3A9vMQY7qRwprS8OrdhvNHSgZ1lzhk4Gk4EBklXNSyH9OBqyG3cjDiU4/lmRaS41RZhe1JFON3+14ii+Pafb9DR/wE=</diagram><diagram id="c5iPGtsNAeejCY1a6I9n" name="JDReport">5Vlbc+I2FP41ekzGNxn50cYmbSedzZTptPvUUbDAbo1FhAiwv75Hsgz4sglhgbJbhhmkT1efc/QdfQa5w/nmQdBF9itPWYEcK90gN0aOYzuBBz8K2VYIJoMKmIk8NZ32wDj/wgxoGXSVp2zZ6Cg5L2S+aIITXpZsIhsYFYKvm92mvGiuuqAz1gHGE1p00T/yVGYVSpzBHv+J5bOsXtn2g6plTuvO5kmWGU35+gByE+QOBeeyKs03Q1Yo49V2ecWPbOQs4qdP5WtEXx7/fs78u2qy0UeG7B5BsFKePHXCuPflYbAt7n7e+i8Pvz++0OjOqaZ+pcXK2Ms8q9zWBoRZwFdQiTI5LwCzoQi2WKj2paRCjiWVqn2aF8WQF1zoga6lP6qzFPwfdtAynZoWszoTkm1a7nrnWe2dAyByGZ8zKbYwzsziDnA1z7b2qvHheh8CroGyA+/XGDVBN9vNvDcsFIxtP2Bn9wg7pxC3psqFzPiMl7RI9uih/ZXJcgjysMhnJWDPXEo+hwZWpqE6NWqSBSsrxJxKcoQv1C4anljylZiw90PoOI/B4adixuQb83n9nhWsoDJ/bW6uz09m6BPPYTv7iAisRkQ4VsvV1b7MqJa3d9s4PQC8bgAkAwTkGhKU+IgQFA10IVTfJEDBEBELJQSFANqqKRihEGsECtVw6OxpJNEIRiRGAdaFkZ4Qo9BGYaQRmCHQBVjLQngI30lZyiWxLDxdQu1p9VzkEyiM8pKW4HQ8DD/DpscZ+BYqn0TKhOrYt2R7f2M6XxTsflMsN51QF3xVpiw1sbzOcsnGC6qjbA1ZqBnqVExM/HoqTKe8lH0k0yKfKXwm/w35OGRw36If0qUfx8Jd/vEuxT+D2+cftsnln4BZYLyq9tkspsqxMm7dLd6ayqmc5Z2Zs8hVOMv1j+Os9ydqk19lsIuRH+khPyCORFGGIg5gOOAqD0URinyNaBKBPrDxsEKADjV7AasploHOsQIV3QDDkd/YclXIv+7v77tsk/H582r5PtPcDoW4uJWtegiE9NxfLsYfQceDJf82BqGGOQo2lbd1oSFnJgf7bV/X83wjWWD3NLI41xmvb9gHIbIF3XfJGJF88WMEyFeuvOcNkHYS8NpkcekAsY+4g7ylNZVbb05pYrt51XMI7jD1VZWm3ac0dP6MQp1RAy05PFVVyEAhkHiV5AhAJPwSK0wlV1sVQDso1QBqAhKwTrcRpG1X529c3/e/pj52o7riBdaHslcXwjrHEyNVCDayCC4Hqg9srVIxgVrlUPtEoKFi0wd0jXpEPYMquLV0Iuq2oZ4rUk3/Lz3iWm094vZcJ2z/mnqkPjW3LEhOTQ/2udWF7ff799wJgVw5IfgfYyqtBiqCUEfdP/Hw71kJRo1QEOu3JLHqtns58pY62VHPSVrkx2aa1h3U83t4xrmmbrG/gxcfJ/OMf26euc5rDHxtZdLz+uH7v3i2/+LA3sUunlDd/8tVeWX/X6Gb/As=</diagram><diagram id="7KRd6PCJYYCpXYkgpeX1" name="SAPReport">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</diagram><diagram id="DzEha4EYQ18AcwpE9zr_" name="TaxFiling">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</diagram></mxfile>
+<mxfile modified="2019-10-27T02:37:55.491Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="tZ3YT2xNHU2MmF98U4ue" version="12.1.7" type="github" pages="6">
+  <diagram id="kjg083pWLBoVDDtL00Iw" name="StatisticReport">
+    <mxGraphModel dx="766" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="PGPbSS310YfWVnNit9GG-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="925.5" y="85" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PGPbSS310YfWVnNit9GG-1" target="PGPbSS310YfWVnNit9GG-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895.5" y="130" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-3" value="用户在共享文件夹维护SAP数据库的报表项目类别和对照表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="869" y="262.5" width="145" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-3" target="PGPbSS310YfWVnNit9GG-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-7" value="用户维护Master数据库的Store/ Entity/ Explanation/ Reference表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="868" y="160" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PGPbSS310YfWVnNit9GG-7" target="PGPbSS310YfWVnNit9GG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910.5" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-9" value="用户提供eCommerce数据到共享文件夹Source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="880.5" y="355" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PGPbSS310YfWVnNit9GG-9" target="PGPbSS310YfWVnNit9GG-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980.5" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-11" value="机器人复制Master数据库，SAP数据库，eCommerce文件（改名为CurrentMontheCom.xlsx）到SR Master文件夹下的SAP文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="100" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-11" target="PGPbSS310YfWVnNit9GG-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225.5" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-13" value="机器人打开SAP程序并下载SAP的报表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="200" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-13" target="PGPbSS310YfWVnNit9GG-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-15" value="机器人合并SAP的报表生成CurrentMonthSAP.xlsx文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="280" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-15" target="PGPbSS310YfWVnNit9GG-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-17" value="机器人生成CurrentMonthINV.xlsx文件并从Smart View取数，然后整理数据格式" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1113" y="360" width="145" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PGPbSS310YfWVnNit9GG-17" target="PGPbSS310YfWVnNit9GG-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245.5" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-19" value="机器人用SAP数据库文件导入eCommerce，SAP，Inventory数据，然后加上SAP History数据进行计算" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1355.5" y="105" width="175" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-19" target="PGPbSS310YfWVnNit9GG-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1468" y="195" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-21" value="机器人生成目标报表，如SAP201907.xlsx到Report文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1350.5" y="205" width="185" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-21" target="PGPbSS310YfWVnNit9GG-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1443.5" y="305" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-23" value="机器人保存SAPHistory, eCommerce History数据到Master数据库，&amp;nbsp;备份SAP数据库和Master数据库到Backup文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1356.5" y="295" width="195" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-23" target="PGPbSS310YfWVnNit9GG-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460.5" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-25" value="机器人把更新后的SAP数据库和Master数据库，和目标报表，如SAP201907.xlsx覆盖回共享文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1375.5" y="395" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="PGPbSS310YfWVnNit9GG-25" target="PGPbSS310YfWVnNit9GG-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620.5" y="450" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGPbSS310YfWVnNit9GG-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1580.5" y="420" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-3" value="用户在共享文件夹维护Retail Link数据库的报表项目类别和对照表 ，和单位转换关系表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="869" y="773" width="145" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-4" value="用户提供RetailLink的13个数据文件到共享文件夹Source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="883" y="886.5" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-6" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="925.5" y="586.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-6" target="KJ2RGU5ftd6z0kdfRPvG-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895.5" y="631.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.552;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-3" target="KJ2RGU5ftd6z0kdfRPvG-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968" y="851.5" as="targetPoint"/>
+            <mxPoint x="941.5" y="814" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-10" value="用户维护Master数据库的Store/ Entity/ Explanation/ Reference表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="868" y="661.5" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-10" target="KJ2RGU5ftd6z0kdfRPvG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="941.5" y="764.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-4" target="KJ2RGU5ftd6z0kdfRPvG-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980.5" y="871.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-14" value="机器人复制Master数据库，RetailLink数据库，和13个数据文件到SR Master文件夹下的Retail Link文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="601.5" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-14" target="KJ2RGU5ftd6z0kdfRPvG-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245.5" y="971.5" as="targetPoint"/>
+            <mxPoint x="1258" y="891.5" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-22" value="机器人用Retail Link数据库文件导入13个数据文件，然后加上Retail Link History数据进行计算" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1355.5" y="606.5" width="175" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-22" target="KJ2RGU5ftd6z0kdfRPvG-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1468" y="696.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-24" value="机器人生成目标报表，如RetailLink201907.xlsx到Report文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1350.5" y="706.5" width="185" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-24" target="KJ2RGU5ftd6z0kdfRPvG-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1443.5" y="806.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-26" value="机器人保存Retail Link History数据到Master数据库，&amp;nbsp;备份Retail Link数据库和Master数据库到Backup文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1356" y="796.5" width="183" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-26" target="KJ2RGU5ftd6z0kdfRPvG-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460.5" y="931.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-28" value="机器人把更新后的Retail Link 数据库和Master数据库，和目标报表，如RetailLink201907.xlsx覆盖回共享文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1350.5" y="896.5" width="185" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-28" target="KJ2RGU5ftd6z0kdfRPvG-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620.5" y="951.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-30" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1580.5" y="921.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-33" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1769.454345703125" y="98.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-33" target="KJ2RGU5ftd6z0kdfRPvG-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1739.454345703125" y="143.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-35" value="用户在共享文件夹维护数据库的工资级别对照表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1712.954345703125" y="276" width="145" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-35" target="KJ2RGU5ftd6z0kdfRPvG-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1811.954345703125" y="363.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-37" value="用户维护Master数据库的Store/ Entity/ Explanation/ Reference表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1711.954345703125" y="173.5" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-37" target="KJ2RGU5ftd6z0kdfRPvG-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1754.454345703125" y="253.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-39" value="用户提供前三个月的月中，月末，总部员工和工资数据到共享文件夹Source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1724.454345703125" y="369" width="120" height="57" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-39" target="KJ2RGU5ftd6z0kdfRPvG-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1824.454345703125" y="383.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-41" value="机器人复制Master数据库，HR数据库，和前三个月的月中，月末，总部员工和工资数据（改名为CurrentMonthEnd.xlsx，CurrentMonthMiddle.xlsx，CurrentMonthHR_HO.xlsx， LastMonthEnd.xlsx 等）到SR Master文件夹下的HR文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1915.454345703125" y="85" width="220" height="99" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-41" target="KJ2RGU5ftd6z0kdfRPvG-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2069.454345703125" y="233.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-43" value="机器人复制SR Master文件夹下Template文件夹里的TemplateCurrentHR.accdb，TemplateLastHR.accdb，TemplateLastLastHR.accdb到HR文件夹，并处理源数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1917.454345703125" y="233.5" width="210" height="101" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-43" target="KJ2RGU5ftd6z0kdfRPvG-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2028.954345703125" y="293.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-47" value="机器人在HR文件夹生成CurrentMonthHR.xlsx，LastMonthHR.xlsx，LastLastMonthHR.xlsx文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1945.454345703125" y="374" width="157" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-47" target="KJ2RGU5ftd6z0kdfRPvG-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2089.454345703125" y="483.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-49" value="机器人用HR数据库文件导入CurrentMonthHR.xlsx，LastMonthHR.xlsx，LastLastMonthHR.xlsx数据，然后加上HR History数据进行计算" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2199.454345703125" y="105" width="206" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-49" target="KJ2RGU5ftd6z0kdfRPvG-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2311.954345703125" y="208.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-51" value="机器人生成目标报表，如HR201906.xlsx到Report文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2194.454345703125" y="218.5" width="185" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-51" target="KJ2RGU5ftd6z0kdfRPvG-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2287.454345703125" y="318.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-53" value="机器人保存HR History数据到Master数据库，&amp;nbsp;备份HR数据库和Master数据库到Backup文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2199.954345703125" y="308.5" width="183" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-54" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-53" target="KJ2RGU5ftd6z0kdfRPvG-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2304.454345703125" y="443.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-55" value="机器人把更新后的HR数据库和Master数据库，和目标报表，如HR201906.xlsx覆盖回共享文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2219.454345703125" y="408.5" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-55" target="KJ2RGU5ftd6z0kdfRPvG-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2464.454345703125" y="463.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-57" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2424.454345703125" y="433.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-58" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1763.954345703125" y="605" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-58" target="KJ2RGU5ftd6z0kdfRPvG-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1733.954345703125" y="650" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-60" value="用户在共享文件夹维护EssbaseTB数据库的报表项目类别和对照表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1707.454345703125" y="782.5" width="145" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-60" target="KJ2RGU5ftd6z0kdfRPvG-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806.454345703125" y="870" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-62" value="用户维护Master数据库的Store/ Entity/ Explanation/ Reference表&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1706.454345703125" y="680" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-63" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-62" target="KJ2RGU5ftd6z0kdfRPvG-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1748.954345703125" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-64" value="用户提当月TB数据到共享文件夹Source，另外确认去年同期和去年年末数据之前提供" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1706.454345703125" y="875" width="133" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-65" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-64" target="KJ2RGU5ftd6z0kdfRPvG-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1818.954345703125" y="890" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-66" value="机器人复制Master数据库，Essbase数据库，TB文件（改名为CurrentMonthTB.xlsx）到SR Master文件夹下的Essbase文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1928.454345703125" y="620" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-66" target="KJ2RGU5ftd6z0kdfRPvG-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2028.454345703125" y="820" as="targetPoint"/>
+            <mxPoint x="2023.454345703125" y="760" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-70" value="机器人复制SR Master文件夹下Template文件夹里的TemplateEssbaseTB.accdb到Essbase文件夹，改名如201907TB.accdb并处理源数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1943.454345703125" y="725" width="160" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-83" target="KJ2RGU5ftd6z0kdfRPvG-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2023.454345703125" y="900" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-72" value="机器人到VAT的文件夹搜索VATSummary*201907.xls文件，如果找到就进行一定处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1930.954345703125" y="982.5" width="162" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-72" target="KJ2RGU5ftd6z0kdfRPvG-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2083.954345703125" y="990" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-74" value="机器人用Essbase数据库文件导入TB数据，VAT数据，然后加上SAP History， HR History，VAT History数据进行计算" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2193.954345703125" y="625" width="175" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-74" target="KJ2RGU5ftd6z0kdfRPvG-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2306.454345703125" y="715" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-76" value="机器人生成目标报表，如EssbaseTB201907.xlsx到Report文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2188.954345703125" y="725" width="185" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-76" target="KJ2RGU5ftd6z0kdfRPvG-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2281.954345703125" y="825" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-78" value="机器人备份Essbase数据库和Master数据库到Backup文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2194.454345703125" y="815" width="183" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-79" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-78" target="KJ2RGU5ftd6z0kdfRPvG-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2298.954345703125" y="950" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-80" value="机器人把更新后的Essbase数据库和Master数据库，和目标报表，如EssbaseTB201907.xlsx覆盖回共享文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2196.454345703125" y="915" width="178" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-81" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-80" target="KJ2RGU5ftd6z0kdfRPvG-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2458.954345703125" y="970" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-82" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="2418.954345703125" y="940" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-83" value="机器人在Essbase文件夹生成TBCP.xlsx&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%A8HR%E6%96%87%E4%BB%B6%E5%A4%B9%E7%94%9F%E6%88%90CurrentMonthHR.xlsx%EF%BC%8CLastMonthHR.xlsx%EF%BC%8CLastLastMonthHR.xlsx%E6%96%87%E4%BB%B6%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BarcSize%3D40%3BfontColor%3D%23000000%3BfillColor%3D%23ffffc0%3BstrokeColor%3D%23ff0000%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22330%22%20y%3D%221349%22%20width%3D%22157%22%20height%3D%2272%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;，TBLP.xlsx，TBLYE.xlsx文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1938.954345703125" y="875.227294921875" width="157" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="KJ2RGU5ftd6z0kdfRPvG-84" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="KJ2RGU5ftd6z0kdfRPvG-70" target="KJ2RGU5ftd6z0kdfRPvG-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2056.454345703125" y="1007" as="targetPoint"/>
+            <mxPoint x="2023.454345703125" y="840" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="91.5" y="130" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="oD03TK5gwHF8pAtNtPd7-1" target="oD03TK5gwHF8pAtNtPd7-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="106.5" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-3" value="用户在共享文件夹&lt;br&gt;维护各个基础数据库" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="46.5" y="200" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="oD03TK5gwHF8pAtNtPd7-3" target="oD03TK5gwHF8pAtNtPd7-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="106.5" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-5" value="用户提供相关的元数据到共享文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="46.5" y="290" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.486;entryY=0.255;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-5" target="oD03TK5gwHF8pAtNtPd7-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="306.5" y="270" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-7" value="（想在）管理员手工启动机器人" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="272" y="210" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.291;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-7" target="oD03TK5gwHF8pAtNtPd7-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311.5" y="285" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-9" value="（将来）机器人根据特定标识自动运行" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="272" y="125" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.655;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-9" target="oD03TK5gwHF8pAtNtPd7-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471.5" y="265" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-11" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="121.5" y="200" width="200" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.35;exitY=1.073;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-11" target="oD03TK5gwHF8pAtNtPd7-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371.5" y="175" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.632;exitY=0.801;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-11" target="oD03TK5gwHF8pAtNtPd7-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321.5" y="195" as="targetPoint"/>
+            <mxPoint x="381.5" y="115" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-14" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="339" y="182.5" width="200" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="oD03TK5gwHF8pAtNtPd7-14" target="oD03TK5gwHF8pAtNtPd7-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576.5" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-16" value="机器人在目标文件夹生成待上报数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="468.5" y="125" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.476;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-16" target="oD03TK5gwHF8pAtNtPd7-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616.5" y="300" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="528" y="201.5"/>
+              <mxPoint x="479" y="201.5"/>
+              <mxPoint x="479" y="322.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-18" value="上报结果保存到目标文件夹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="526.5" y="455" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="oD03TK5gwHF8pAtNtPd7-18" target="oD03TK5gwHF8pAtNtPd7-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="911.5" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-20" value="（现在）管理员手工启动机器人上报数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="574" y="318.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.291;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-20" target="oD03TK5gwHF8pAtNtPd7-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599" y="432.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-22" value="（将来）机器人根据特定标识自动上报数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="570" y="244" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.655;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-22" target="oD03TK5gwHF8pAtNtPd7-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="412.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-24" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="409" y="312.5" width="200" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.35;exitY=1.073;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-24" target="oD03TK5gwHF8pAtNtPd7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659" y="322.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.632;exitY=0.801;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-24" target="oD03TK5gwHF8pAtNtPd7-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="609" y="342.5" as="targetPoint"/>
+            <mxPoint x="669" y="262.5" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-27" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="669" y="322.5" width="200" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-28" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.555;exitY=0.728;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="oD03TK5gwHF8pAtNtPd7-27" target="oD03TK5gwHF8pAtNtPd7-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1001.5" y="325" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="771" y="299.5"/>
+              <mxPoint x="789" y="299.5"/>
+              <mxPoint x="789" y="475.5"/>
+              <mxPoint x="646" y="475.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-29" value="用户查看上报结果，以及手工处理异常" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="166.5" y="442.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="oD03TK5gwHF8pAtNtPd7-29" target="oD03TK5gwHF8pAtNtPd7-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171.5" y="590" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oD03TK5gwHF8pAtNtPd7-31" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="76.5" y="447.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="90" y="645" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="3_2RzOXcvrW9suj200Ls-1" target="3_2RzOXcvrW9suj200Ls-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="735" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-3" value="管理员确认需要上报的数据文件已经在SR Master文件夹下的Report文件夹里准备好" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="45" y="715" width="135" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3_2RzOXcvrW9suj200Ls-3" target="3_2RzOXcvrW9suj200Ls-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="815" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-5" value="机器人根据Master数据库在SR Master文件夹下的Template文件夹生成文件M_Explanation.xlsx" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="250" y="715" width="137" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="3_2RzOXcvrW9suj200Ls-5" target="3_2RzOXcvrW9suj200Ls-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="318.5" y="801.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-7" value="使用StatisticsReport机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="30" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-8" value="使用StatisticsReport机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1801.257548014323" y="30" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-9" value="使用StatisticsReport机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1818.257548014323" y="560" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-10" value="使用StatisticsReport机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="979.757548014323" y="527.5" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-11" value="使用Annual_Stastic_Report机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="161.757548014323" y="626.5" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-12" value="使用StatisticsReport机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="277" y="255" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-13" value="使用Annual_Stastic_Report机器人" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="583.757548014323" y="365" width="110" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-14" value="机器人登陆统计局网站，上报数据，填写预定义的Explanation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="259" y="810" width="132" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3_2RzOXcvrW9suj200Ls-14" target="3_2RzOXcvrW9suj200Ls-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="880" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-16" value="管理员断开内网连接，连接到Guest Wifi" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="816.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3_2RzOXcvrW9suj200Ls-16" target="3_2RzOXcvrW9suj200Ls-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="897" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-18" value="机器人报上报结果保存到源数据文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="450" y="797.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3_2RzOXcvrW9suj200Ls-18" target="3_2RzOXcvrW9suj200Ls-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="892.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-20" value="如果上报结果通过，就从网站下载已上报数据文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="449" y="727" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3_2RzOXcvrW9suj200Ls-20" target="3_2RzOXcvrW9suj200Ls-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="977" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-22" value="管理员检查上报结果，如有必要，删除Result列的数据，然后重新启动机器人" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="620" y="718" width="130" height="63" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="3_2RzOXcvrW9suj200Ls-27" target="3_2RzOXcvrW9suj200Ls-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="817.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-24" value="管理员把上报结果和下载的数据文件分享给用户" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="620" y="912.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="3_2RzOXcvrW9suj200Ls-24" target="3_2RzOXcvrW9suj200Ls-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1012.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-26" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="665" y="997.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-27" value="管理员连上内网" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="620" y="832.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3_2RzOXcvrW9suj200Ls-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="1" source="3_2RzOXcvrW9suj200Ls-22" target="3_2RzOXcvrW9suj200Ls-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="912.5" as="targetPoint"/>
+            <mxPoint x="680" y="757.5" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="icaxgThGoKbC_f-febgG" name="GiftCardReport">
+    <mxGraphModel dx="1094" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="r02q_jy1E1cN7Bw2F2P4-0"/>
+        <mxCell id="r02q_jy1E1cN7Bw2F2P4-1" parent="r02q_jy1E1cN7Bw2F2P4-0"/>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="345" y="123.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-0" target="PI64ebRyJbVkjzBGToYj-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="213.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-2" value="用户在共享文件夹填写需要下载的Case清单，&quot;\\cnnts8005fs\Public\Finance\AY Share\Gilft Card Data\Source\Download_Combine_Gilf_Card_Data V1.xlsm&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="225" y="183.5" width="330" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-2" target="PI64ebRyJbVkjzBGToYj-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="293.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-10" value="是否有需下载的Case" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="325" y="273.5" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-11" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-10" target="PI64ebRyJbVkjzBGToYj-15" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="675" y="283.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-10" target="PI64ebRyJbVkjzBGToYj-13" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="535" y="363.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-13" value="机器人打开网站，登陆网页，选择报表，填入Case搜索，下载网页生成报表，并记录下结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="277.5" y="356.5" width="175" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-13" target="PI64ebRyJbVkjzBGToYj-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="443.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="450" y="278.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-16" value="机器人合并所有下载好的报表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="305" y="448.5" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-16" target="PI64ebRyJbVkjzBGToYj-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="523.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="350" y="668.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-19" value="Download GiftCard Data" style="ellipse;whiteSpace=wrap;html=1;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="410" y="88.5" width="105" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-20" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1100.5" y="96" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-20" target="PI64ebRyJbVkjzBGToYj-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1003.5" y="201" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-22" value="用户在共享文件夹填写Case的总金额与折扣率，&quot;\\cnnts8005fs\Public\Finance\AY Share\Gilft Card Data\Source\Download_Combine_Gilf_Card_Data V1.xlsm&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="947.5" y="171" width="336" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-22" target="PI64ebRyJbVkjzBGToYj-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="982" y="276" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-24" value="Case信息和GiftCard明细&lt;br&gt;是否已提供" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1220.5" y="434" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-25" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-24" target="PI64ebRyJbVkjzBGToYj-27" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1271" y="412" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-24" target="PI64ebRyJbVkjzBGToYj-28" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1267" y="440.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1384.5" y="439" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-28" value="机器人导入GiftCard明细，生成Reference清单，或者Top30的Reference清单" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1200" y="507.5" width="136" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-30" value="机器人打开Teradata，然后查询Visit信息（每200条Reference)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1194" y="578.5" width="156" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-30" target="PI64ebRyJbVkjzBGToYj-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1261" y="678.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-32" value="机器人打开Teradata，然后查询购物信息（每100条Visit）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1196.5" y="658.5" width="146" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-32" target="PI64ebRyJbVkjzBGToYj-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1432.5" y="733.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-34" value="机器人根据Reference，Visit，和购物信息生成报表1，报表2，Mapping表，和导出源GiftCard明细" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1407" y="507.5" width="153" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-34" target="PI64ebRyJbVkjzBGToYj-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1486.5" y="604.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-36" value="机器人把报表文件保存到共享文件夹&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1430" y="707.4999999999999" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-36" target="PI64ebRyJbVkjzBGToYj-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360.5" y="872.4999999999999" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-38" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1475" y="782.4999999999999" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-39" value="机器人把下载的报表移动到归档文件夹，如C:\Gift Card Data\Result\20190902_080029" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="268" y="516.5" width="197" height="47" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-39" target="PI64ebRyJbVkjzBGToYj-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="523.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-41" value="机器人把报表文件保存到共享文件夹&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="306.5" y="595.9999999999999" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-41" target="PI64ebRyJbVkjzBGToYj-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495.33333333333337" y="543.1666666666667" as="targetPoint"/>
+            <mxPoint x="532.8333333333334" y="473.5" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-43" value="机器人把下载的报表移动到归档文件夹，如C:\Gift Card Data\Result\20190902_080029&lt;br&gt;并清空源GiftCard明细" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1401" y="605" width="165" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-43" target="PI64ebRyJbVkjzBGToYj-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1516" y="790" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-45" value="Run Teradata" style="ellipse;whiteSpace=wrap;html=1;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1170" y="75" width="105" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-67" value="Run Teradata Top 30" style="ellipse;whiteSpace=wrap;html=1;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="930" y="241" width="105" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-68" value="用户填写AdHoc.csv文件去触发特殊流程，开始时间在每日的RunTeradata任务之前，Eg.Run_Teradata_Report_Top30,8/28/2019 16:40:00,C:\UiPath\RunRetadataTop30\Main.xaml" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="940" y="324" width="290" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-70" value="Top 30 Reference数据" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" vertex="1">
+          <mxGeometry x="1045" y="256" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-71" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-70" target="PI64ebRyJbVkjzBGToYj-24" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1337" y="186" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-72" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-70" target="PI64ebRyJbVkjzBGToYj-68" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1197" y="266" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-68" target="PI64ebRyJbVkjzBGToYj-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1318" y="441" as="targetPoint"/>
+            <mxPoint x="1430" y="461" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PI64ebRyJbVkjzBGToYj-74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r02q_jy1E1cN7Bw2F2P4-1" source="PI64ebRyJbVkjzBGToYj-28" target="PI64ebRyJbVkjzBGToYj-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1651.5" y="574" as="targetPoint"/>
+            <mxPoint x="1311.5" y="524" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c5iPGtsNAeejCY1a6I9n" name="JDReport">
+    <mxGraphModel dx="766" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="v5LeF2pDPOnvBaqLjbh6-0"/>
+        <mxCell id="v5LeF2pDPOnvBaqLjbh6-1" parent="v5LeF2pDPOnvBaqLjbh6-0"/>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="375" y="110" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" source="Eeo4zG7yl-Iy6qGULqaB-2" target="Eeo4zG7yl-Iy6qGULqaB-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-4" value="用户把需要查询的订单号填写到\\cnnts8005fs\Public\Finance\AY Share\Orders\订单查询Sample.xlsx" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="287.5" y="180" width="205" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="v5LeF2pDPOnvBaqLjbh6-1" source="Eeo4zG7yl-Iy6qGULqaB-4" target="Eeo4zG7yl-Iy6qGULqaB-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="targetPoint"/>
+            <mxPoint x="390" y="300" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-8" value="原文件是否有工作表Result_..." style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="350" y="280" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-9" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" source="Eeo4zG7yl-Iy6qGULqaB-8" target="Eeo4zG7yl-Iy6qGULqaB-11" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-10" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" source="Eeo4zG7yl-Iy6qGULqaB-8" target="Eeo4zG7yl-Iy6qGULqaB-14" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="515" y="285" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-14" value="机器人登陆JD网站，输入订单号，查询两个月内或之前的购买商品明细" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="307.5" y="380" width="165" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" source="Eeo4zG7yl-Iy6qGULqaB-14" target="Eeo4zG7yl-Iy6qGULqaB-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-16" value="机器人合并购买商品明细，保存到原文件的工作表Result_..." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="330" y="460" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" source="Eeo4zG7yl-Iy6qGULqaB-16" target="Eeo4zG7yl-Iy6qGULqaB-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeo4zG7yl-Iy6qGULqaB-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="v5LeF2pDPOnvBaqLjbh6-1" vertex="1">
+          <mxGeometry x="375" y="545" width="30" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7KRd6PCJYYCpXYkgpeX1" name="SAPReport">
+    <mxGraphModel dx="766" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="i8-AEYbULhCNQf13LuKJ-0"/>
+        <mxCell id="i8-AEYbULhCNQf13LuKJ-1" parent="i8-AEYbULhCNQf13LuKJ-0"/>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="147.5" y="135" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-0" target="uaoBkPWmSlGq3HNr--ON-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162.5" y="305" as="targetPoint"/>
+            <mxPoint x="163" y="245" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-4" value="每月第7天" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="590" y="255" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-5" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-4" target="uaoBkPWmSlGq3HNr--ON-27" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="122.5" y="285" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-6" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-4" target="uaoBkPWmSlGq3HNr--ON-7" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-17.5" y="345" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-7" value="机器人打开SAP，启动164，165报表的查询" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="570" y="325" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-7" target="uaoBkPWmSlGq3HNr--ON-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="425" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-11" value="机器人输入164，165报表的条件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="570" y="405" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-11" target="uaoBkPWmSlGq3HNr--ON-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="505" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-13" value="机器人保存164，165报表内容" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="570" y="485" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-13" target="uaoBkPWmSlGq3HNr--ON-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631" y="565" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-15" value="机器人另存164，165文件到功效文件夹\\pcnnt10040a\finInbox\SAPBI" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="540" y="575" width="175" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-15" target="uaoBkPWmSlGq3HNr--ON-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="665" as="targetPoint"/>
+            <mxPoint x="871" y="615" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="739.3181762695312" y="260.18182373046875" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="613" y="675" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-30" value="机器人打开SAP的Start the Business Explorer Analyzer，启动Excel" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="92.5" y="215" width="145" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-30" target="uaoBkPWmSlGq3HNr--ON-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167.5" y="315" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-32" value="机器人输入581报表的条件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="110" y="365" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-32" target="uaoBkPWmSlGq3HNr--ON-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="465" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-34" value="机器人保存581报表内容" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="110" y="445" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-34" target="uaoBkPWmSlGq3HNr--ON-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171" y="525" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-36" value="机器人删除多余数据，整理成CSV文件保存到文件夹\\pcnnt10040a\finInbox\SAPBI" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="80" y="535" width="175" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-37" value="机器人在Excel插件中收索581报表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="110" y="290" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-37" target="uaoBkPWmSlGq3HNr--ON-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472.5" y="355" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-39" value="机器人打开SAP，启动355报表的查询" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="332.5" y="210" width="145" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-41" value="机器人输入355报表的条件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="347.5" y="305" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-41" target="uaoBkPWmSlGq3HNr--ON-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407.5" y="405" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-43" value="机器人保存355报表内容" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="347.5" y="385" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-43" target="uaoBkPWmSlGq3HNr--ON-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.5" y="465" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-45" value="机器人删除多余数据，整理成CSV文件保存到文件夹\\pcnnt10040a\finInbox\SAPBI" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="317.5" y="475" width="175" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-39" target="uaoBkPWmSlGq3HNr--ON-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="712.5" y="350" as="targetPoint"/>
+            <mxPoint x="410" y="325" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-36" target="uaoBkPWmSlGq3HNr--ON-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="178" y="545" as="targetPoint"/>
+            <mxPoint x="180" y="495" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaoBkPWmSlGq3HNr--ON-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="i8-AEYbULhCNQf13LuKJ-1" source="uaoBkPWmSlGq3HNr--ON-45" target="uaoBkPWmSlGq3HNr--ON-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="485" as="targetPoint"/>
+            <mxPoint x="418" y="435" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzVBqnI2lZIgNWs9n0Dv-0" value="Text" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="i8-AEYbULhCNQf13LuKJ-1" vertex="1">
+          <mxGeometry x="636" y="100" width="40" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DzEha4EYQ18AcwpE9zr_" name="TaxFiling">
+    <mxGraphModel dx="766" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4OG8UPgV6eWzD8oNXNIg-0"/>
+        <mxCell id="4OG8UPgV6eWzD8oNXNIg-1" parent="4OG8UPgV6eWzD8oNXNIg-0"/>
+        <mxCell id="a30bZexxGh_UUkFujprv-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="396" y="85" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-0" target="a30bZexxGh_UUkFujprv-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="175" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-2" value="用户准备所得税数据，保存在共享文件夹\\cnnts8005fs\Public\Finance\AY_Temp&lt;br&gt;\Monthly_BS_PL_CF_Reports" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="298.5" y="155" width="225" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-2" target="a30bZexxGh_UUkFujprv-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="255" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-4" value="机器人获取源数据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="351" y="235" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-4" target="a30bZexxGh_UUkFujprv-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="335" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-6" value="&lt;span style=&quot;white-space: normal&quot;&gt;结果列是否有数据&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="371" y="315" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-7" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-6" target="a30bZexxGh_UUkFujprv-9" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="551" y="335" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-6" target="a30bZexxGh_UUkFujprv-11" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="411" y="415" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-9" value="机器人打开政府网站，使用法人代码和密码登陆" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="516" y="315" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-9" target="a30bZexxGh_UUkFujprv-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="415" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-11" value="机器人检查下一行" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="351" y="635" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-11" target="a30bZexxGh_UUkFujprv-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="495" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-13" value="机器人分别点击资产负债表和利润表，并填入数据，然后提交" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="516" y="395" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-13" target="a30bZexxGh_UUkFujprv-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="495" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-15" value="机器人记录提交的结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="516" y="475" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-15" target="a30bZexxGh_UUkFujprv-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="575" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-17" value="机器人点击现金流量表，不用填入数据，直接提交" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="516" y="555" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-17" target="a30bZexxGh_UUkFujprv-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="655" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-19" value="机器人把提交结果保存到源数据的结果列" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="516" y="635" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-19" target="a30bZexxGh_UUkFujprv-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="735" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-21" value="是否最后一行" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="228.5" y="635" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-22" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-21" target="a30bZexxGh_UUkFujprv-6" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="541" y="725" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-23" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-21" target="a30bZexxGh_UUkFujprv-25" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="401" y="805" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="253.5" y="805" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-25" value="机器人把源文件改名为yyyy_MM_dd_Done&lt;br&gt;_ProcessSourceData.xlsm" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4OG8UPgV6eWzD8oNXNIg-1" vertex="1">
+          <mxGeometry x="188.5" y="715" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="a30bZexxGh_UUkFujprv-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0.237;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="4OG8UPgV6eWzD8oNXNIg-1" source="a30bZexxGh_UUkFujprv-25" target="a30bZexxGh_UUkFujprv-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="318.5" y="665" as="targetPoint"/>
+            <mxPoint x="361.5" y="665" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sAGGNP7ZkoYyqZHiFpK5" name="Page-6">
+    <mxGraphModel dx="766" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="71CLyS5U9vGclianXUYJ-0"/>
+        <mxCell id="71CLyS5U9vGclianXUYJ-1" parent="71CLyS5U9vGclianXUYJ-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
